@@ -1,0 +1,13 @@
+input {
+ font-size: 14px;
+	color: #eee;
+	outline: none;
+	background-color: rgba(238, 238, 238, 0.3);
+	border:none;
+	padding: 10px;
+	transition: background-color .2s ease;
+
+	&::placeholder {font-style: italic; color:#eee;}
+	&:focus {background-color: rgba(238, 238, 238, 0.35)}
+}
+
