@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/scss/_normalize";
+@import "assets/scss/_variables";
+@import "assets/scss/_fonts";
+@import "assets/scss/_presets";
+@import "assets/scss/inp";
+@import "assets/scss/btn";
+
+body {
+	overflow-x: hidden;
+	height: 100vh;
+	line-height: 1.75;
+ color: $text-color;	
+ font-family: 14px;
+ background-image: url(assets/img/bg.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+ font-family: Roboto-Light;
+}
+
+h1 {
+	color: $text-color;
+	font-size: 28px;
+	font-family: Plump;
+	line-height: 1;
+	margin: 0;
+}	
+
+

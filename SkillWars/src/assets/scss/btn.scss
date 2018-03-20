@@ -1,0 +1,17 @@
+button {
+	background-color: #4a7a1a;
+	color: #eee;
+	border: none;
+	outline: none;
+	padding: 10px 45px;
+	font-family: Roboto-Regular;
+	transition: background-color .2s ease;
+
+	&:hover {cursor: pointer; background-color: lighten(#4a7a1a, 2%);}
+	&:focus {cursor: pointer; background-color: lighten(#4a7a1a, 2%);}
+ &:active {cursor: pointer; background-color: darken(#4a7a1a, 3%);}
+}
+
+.btn-steam {
+	padding: 5px 15px;
+}

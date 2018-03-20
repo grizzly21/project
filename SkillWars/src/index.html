@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
   <title>SkillWars</title>
@@ -9,6 +9,21 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>Loading...</app-root>
 </body>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+	$("svg.sign-button").click(function(){ 
+	 $("app-sign").css("transform", "translateX(0)");
+	});
+	$("svg.sign-close-btn").click(function(){ 
+	 $("app-sign").css("transform", "translateX(100%)");
+	});
+	
+
+// $("app-sign").css("transform", "translateX(0)");
+	
+</script>
+
 </html>

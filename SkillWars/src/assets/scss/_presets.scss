@@ -1,0 +1,44 @@
+// Потрібно щоб padding і margin включались в елемент
+* {
+	box-sizing: border-box;
+	&:before, &:after {
+		box-sizing: border-box;
+	}
+}
+
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+.img-responsive {	
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.container {
+ max-width: 1200px;
+ margin: auto;
+ padding: 0 20px;	
+}
+
+.hidden-768 {
+	@media only screen and (max-width: 768px) { display: none; }
+}
+
+.hidden-480 {
+	@media only screen and (max-width: 480px) { display: none; }
+}
+
